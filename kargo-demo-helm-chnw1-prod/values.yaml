@@ -1,0 +1,23 @@
+kargo-demo:
+  replicaCount: 1
+  image:
+    repository: docker.io/niiku/kargo-demo-app
+    tag: v0.2.0
+  network:
+    http:
+      servicePort: 8080
+      ingress:
+        host: kargo-demo-helm.apps.baloise.dev
+  readinessProbe:
+    httpGet:
+      path: /
+      port: 8080
+    initialDelaySeconds: 15
+    timeoutSeconds: 1
+  resources:
+    requests:
+      cpu: 10m
+      memory: 16Mi
+    limits:
+      cpu: 1
+      memory: 32Mi

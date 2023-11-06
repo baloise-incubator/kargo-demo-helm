@@ -1,0 +1,7 @@
+  kargo: 
+    name: kargo-demo-helm
+    autoPromote: false
+    charts:
+      - registryURL: https://baloise-incubator.github.io/kargo-demo-app
+        name: kargo-demo-app
+
