@@ -1,0 +1,6 @@
+dependencies:
+- name: kargo-demo-app
+  repository: https://baloise-incubator.github.io/kargo-demo-app
+  version: 0.3.0
+digest: sha256:16fb2a003c754aa73ace0b5a84885c7b60b15feac530c91c8947ee2061483aff
+generated: "2023-11-07T10:09:26.532246416Z"
