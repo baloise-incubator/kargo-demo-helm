@@ -3,6 +3,6 @@ name: kargo-demo-helm-test
 version: 1.0.0
 dependencies:
   - name: kargo-demo-app
-    version: 0.2.0
+    version: 0.3.0
     repository: https://baloise-incubator.github.io/kargo-demo-app
     alias: kargo-demo
