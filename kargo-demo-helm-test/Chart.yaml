@@ -4,5 +4,5 @@ version: 1.0.0
 dependencies:
   - name: kargo-demo-app
     version: 0.2.0
-    repository: https://baloise-incubator.github.io/kargo-demo-app/
+    repository: https://baloise-incubator.github.io/kargo-demo-app
     alias: kargo-demo
